@@ -7,8 +7,8 @@ services:
       dockerfile: Dockerfile.prod
     command: gunicorn locallibrary.wsgi:application --bind 0.0.0.0:9000
     volumes:
-      - static_volume:/home/locallibrary/web/staticfiles
-      - media_volume:/home/locallibrary/web/mediafiles
+      - static_volume:./staticfiles
+      - media_volume:./mediafiles
     expose:
       - 9000
     env_file:
