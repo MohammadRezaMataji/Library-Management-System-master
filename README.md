@@ -5,7 +5,7 @@ To get started please ensure that python 3.8 or above is installed in your syste
 
 - To run the project locally first of all clone the repository 
   ```
-  git clone https://github.com/LomNtetha/Library-Management-System.git
+  git clone https://github.com/MohammadRezaMataji/Library-Management-System-master.git
   ```
 - go to project directory
   ```
